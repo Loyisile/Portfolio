@@ -316,7 +316,7 @@ footer span a:hover{
 
 .column {
     float: left;
-    width: 100%; /* For mobile, take up full width */
+    width: 50%; /* For mobile, take up full width */
     margin-top: 6px;
     padding: 20px;
 }
