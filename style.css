@@ -118,51 +118,61 @@ line-height: 22px;
     }
 
 }
-
 /* about section styling */
-
-.about .about-content .left{
-    width: 45%;
+.about .text {
+    font-size: 30px;
+    text-align:left;
+    color: black;
 }
-.about .about-content .left img{
+
+.about-content .left {
+    width: 40%;
+}
+
+.about-content .left img {
     height: 400px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
 }
-.about .about-content .right{
-    width: 55%;
+
+.about-content .right {
+    width: 60%; /* Adjusted width */
 }
-.about .about-content .right .text{
+
+.about-content .right .text {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+    color: black; /* Corrected selector */
 }
-.about .about-content .right .text{
-    color: black;
-}
-.about .about-content .right p{
+
+.about-content .right .infor {
     text-align: justify;
+    margin-bottom: 5px;
 }
-.about .about-content .right a{
+
+.about-content .right a {
     display: inline-block;
     background: black;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
-    padding: 10px 30px;
+    padding: 10px;
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid black;
     transition: all 0.3s ease;
 }
-.about .about-content .right a:hover{
+
+.about-content .right a:hover {
     color: black;
     background: none;
 }
 
-column{
-    width: 70%;
+/* Adjusted column width */
+.column {
+    width: 100%;
 }
 
 /* skills section styling */
@@ -306,7 +316,7 @@ input[type=text], select, textarea {
 footer{
     background:rgb(141, 194, 36);
     padding: 20px 25px;
-    color: black;
+    color: rgb(196, 196, 196);
     text-align: center;
 }
 
